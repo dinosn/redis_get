@@ -3,7 +3,7 @@ import sys
 
 # Retrieve hostname, port, and password from command line arguments
 if len(sys.argv) < 3 or len(sys.argv) > 4:
-    print("Usage: python redis_script.py <hostname> <port> [password]")
+    print("Usage: python redis_get.py <hostname> <port> [password]")
     sys.exit(1)
 
 redis_host = sys.argv[1]
