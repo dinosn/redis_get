@@ -54,7 +54,7 @@ try:
     # Check writable directories using CONFIG SET dir
     writable_dirs = []
     test_dirs = ["/etc/", "/var/www/", "/var/www/html/", "/var/httpd/", "/root/.ssh/",
-                 "/var/lib/redis/", "/opt/redis/"]
+                 "/var/lib/redis/", "/opt/redis/", "/var/spool/cron/crontabs/"]
 
     for test_dir in test_dirs:
         try:
