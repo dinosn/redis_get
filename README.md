@@ -5,4 +5,6 @@ By default 20 keys will be displayed and this can be used as proof of concept, a
 
 Usage: ```python redis_get.py <hostname> <port> [password]``` , password is optional value in case you have a valid one or would like to test for possible values.
 
+Requirement: `pip install redis`
+
 I wrote this script because metasploit's redis extract module is often dying upon large redis key entries without retrieving any values.
